@@ -1,0 +1,20 @@
+public class Exception
+{
+    public static void main(String args[]) {
+        
+
+        int a = 11, b=5, c =5 ,x,y ;
+        try
+        {
+            x =a/(b-c);
+
+        }
+        catch(ArithmaticException e)
+        {
+            System.out.println("division by zero :");
+        }
+        y = a /(b-c);
+        System.out.println(" y =");
+
+    }
+}

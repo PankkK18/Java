@@ -1,0 +1,29 @@
+struct node*ptr;
+int item, i = 0, flag  = 1;
+ptr  =  head ;
+ if (ptr  == null)
+{
+printf(" empty list ");
+}
+else{
+printf(" enter item  to search ");
+while(ptr! = null)
+{
+if ( ptr-> data == item)
+{
+printf ("  item found at loc %d", i+1);
+flag =  0;
+}
+else
+{
+flag = 1;
+}
+i++;
+ptr = ptr -> next ;
+}
+ if (flag ==1 )
+{
+ printf(" item not found ");
+}
+}
+
